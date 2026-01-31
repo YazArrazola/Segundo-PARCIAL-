@@ -1,0 +1,59 @@
+body {
+  font-family: Arial;
+  background: #f8e7a2;
+  color: #3d2b1f;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.card {
+  background: #f4f1ea;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+button {
+  background: #6f4e37;
+  color: white;
+  border: none;
+  padding: 8px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4b3325;
+}
+
+input {
+  display: block;
+  margin: 5px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+.pedido {
+  background: #87a7d9;
+  padding: 8px;
+  margin: 5px 0;
+  cursor: grab;
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo {
+  background: #ffd966;
+  padding: 10px;
+  text-align: center;
+  animation: parpadeo 1s infinite;
+}
+}
